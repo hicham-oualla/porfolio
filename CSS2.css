@@ -406,5 +406,89 @@
 
 
 
+/* Contact Section */
+.contact {
+    background-color: hsl(0, 0%, 24%);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #007ced;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.dropdown-toggle {
+    background-color: #007ced;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    background-color: #5f7fdf;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.dropdown-item {
+    color: #333;
+    padding: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-item i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.dropdown-item:active {
+    background-color: #e0e0e0;
+}
+/* Hide the dropdown by default */
+.dropdown-menu {
+    display: none;
+}
+
+/* Show the dropdown when the 'show' class is added */
+.dropdown-menu.show {
+    display: block;
+}
+
 
 
