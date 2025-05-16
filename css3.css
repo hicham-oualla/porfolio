@@ -1,0 +1,171 @@
+
+/* Contact Section */
+.contact {
+    background-color: hsl(0, 0%, 24%);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #007ced;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.dropdown-toggle {
+    background-color: #007ced;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    background-color: #5f7fdf;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.dropdown-item {
+    color: #333;
+    padding: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-item i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.dropdown-item:active {
+    background-color: #e0e0e0;
+}
+/* Hide the dropdown by default */
+.dropdown-menu {
+    display: none;
+}
+
+/* Show the dropdown when the 'show' class is added */
+.dropdown-menu.show {
+    display: block;
+}
+
+
+
+
+.experience {
+  padding: 50px 0;
+  background-color: #202127;
+  color: #eaeaea;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 2rem;
+  color: #007ced;
+  margin-bottom: 40px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.experience-card {
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.experience-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: white;
+  padding: 5px;
+}
+
+.experience-content {
+  flex: 1;
+  text-align: left;
+}
+
+.experience-content h3 {
+  color: #007ced;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+
+.experience-content .date {
+  font-size: 0.9em;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.experience-content ul {
+  padding-left: 20px;
+  color: #ccc;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience-content {
+    text-align: center;
+  }
+
+  .experience-content ul {
+    padding-left: 0;
+  }
+}
