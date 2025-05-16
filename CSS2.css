@@ -101,14 +101,6 @@
 
 
 
-
-
-
-
-
-
-
-
 .education {
     padding: 50px 0;
     background-color: #222;
@@ -218,18 +210,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .skills {
     padding: 50px 0;
     background-color: #3c3a3a;
@@ -280,26 +260,6 @@
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -492,3 +452,171 @@
 
 
 
+
+.experience {
+  padding: 50px 0;
+  background-color: #202127;
+  color: #eaeaea;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 2rem;
+  color: #007ced;
+  margin-bottom: 40px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.experience-card {
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.experience-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: white;
+  padding: 5px;
+}
+
+.experience-content {
+  flex: 1;
+  text-align: left;
+}
+
+.experience-content h3 {
+  color: #007ced;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+
+.experience-content .date {
+  font-size: 0.9em;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.experience-content ul {
+  padding-left: 20px;
+  color: #ccc;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience-content {
+    text-align: center;
+  }
+
+  .experience-content ul {
+    padding-left: 0;
+  }
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .do-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}/* Base Styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+}
+body {
+    overflow-x: hidden;
+    background-color: #222;
+    color: #e5e5e5;
+}
+
+/* Hero Section */
+.hero-header {
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+}
+
+/* Wrapper */
+.wrapper {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    background-color: #007ced;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+/* Buttons */
+.btn {
+    background-color: #333;
+    color: #fff;
+}
+.btn.active {
+    border: 2px solid #007ced;
+}
+
+/* Social Media Icons */
+.social i {
+    color: #e5e5e5;
+    transition: transform 0.5s;
+}
+.social i:hover {
+    transform: rotate(360deg);
+}
+
+/* What I Do Section */
+.what-i-do {
+    text-align: center;
+}
+
+.do-card {
+    background: #333;
+    color: #e5e5e5;
+    margin: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    header {
